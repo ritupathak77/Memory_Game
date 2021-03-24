@@ -1,0 +1,107 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: saltegrey;
+  color: black;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  font-family: verdana, arial, sans-serif;
+}
+p {
+    justify-content: center;
+    color: rgb(251, 255, 1);
+    margin-left: 3rem;
+    font-size: large;
+}
+ .switchArea{
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: silver;
+  }
+button {
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+.switchArea > button:hover {
+    transform: scale(1.2);
+    background-color: white;
+  color: blue;
+}
+#timer{
+    float: right;
+    padding: 2px;
+    color: crimson;
+    background-color: white;
+    font-weight: bold;
+  }
+ #gameButtonArea {
+    margin-top: 2rem;
+  }
+ 
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+.hidden {
+  display: none;
+}
+#button1 {
+    background: lightgreen;
+}
+#button1:active, #button1.lit
+{
+  background: green;
+  
+}
+#button2 {
+    background: lightblue;
+}
+#button2:active, #button2.lit
+{
+  background: blue;
+}
+#button3 {
+    background: pink;
+}
+#button3:active, #button3.lit
+{
+  background: red;
+}
+#button4 {
+    background: lightyellow;
+}
+#button4:active, #button4.lit
+{
+  background: yellow;
+}
+#button1:active {
+    background:green;
+}
+#button2:active {
+    background:blue;
+}
+#button3:active {
+    background:red;
+}
+#button4:active {
+    background:yellow;
+}
+#button5 {
+    background: grey;
+}
+#button5:active, #button1.lit
+{
+  background: black;
+}
