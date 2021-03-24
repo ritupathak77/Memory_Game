@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Let's Play</h1>
+    
+    <p>
+      I don't know what to say <a href="https://google.com">Google</a>!
+    </p>
+    
+    
+    
+    
+    <button id= "startButton" onclick= "startGame()">
+      Start
+    </button>
+    
+    <button id= "stopButton" onclick="stopGame()">
+      Stop
+    </button>
+    
+    
+    
+    <div id= "someGameButtons">
+      <button id= "button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"
+></button>
+      <button id= "button2" onclick="guess(2)" onmousedown="startTone(1)" onmouseup="stopTone()"
+></button>
+      <button id= "button3"  nclick="guess(3)" onmousedown="startTone(1)" onmouseup="stopTone()"
+></button>
+      <button id= "button4" onclick="guess(4)" onmousedown="startTone(1)" onmouseup="stopTone()"
+></button>
+      <button id= "button5" onclick="guess(5)" onmousedown="startTone(1)" onmouseup="stopTone()"
+></button>
+    </div>
+    
+    
+    
+    
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
